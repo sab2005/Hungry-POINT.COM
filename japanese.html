@@ -1,0 +1,560 @@
+<html>
+<head>
+<title></title>
+<style>
+.cat  {
+height:620px;
+padding:5px 5px 5px 5px;
+border:2px ridge black;
+background-image:url("GGI.gif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+width:auto
+}
+button {
+BACKGROUND-COLOR: #ee3f4b;
+padding: 8px 14px;
+font-family: font2;
+color: #fff;
+letter-spacing: 1px;
+border-radius: 4px;
+font-weight: 300!important;
+font-size: 20px;
+box-shadow: 0 11px 9px #00000045;
+margin-left:700px;
+margin-top:20px;
+}
+.map {
+height:2000px;
+padding-bottom:65%;
+border:2px ridge black;
+width:auto;
+background-image:url("sakura1.webp");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:fixed;
+}
+header {
+margin-bottom: 0;
+display: inline-block;
+color: #333;
+padding: 7px 1px;
+font-size: 60px;
+margin-top:60px;
+text-align:center;
+line-height:1;
+line-space:1px;
+line-weight:bolder;
+margin-left:300px
+}
+p {
+margin-left:380px;
+line-height:1.40
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+  margin-left:720px;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color:#bbb}
+
+.dropup:hover .dropup-content {
+  display: block;
+  BACKGROUND-COLOR:mistyrose;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.container {
+  position:relative;
+  width: 100%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+	
+  
+}
+
+.image {
+  display: inline-block;
+  width: 120%;
+  height: 12%;
+  margin-left:150px;
+   margin-top:5px;
+     border-radius:15px 50px 30px;
+	
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:150px;
+    border-radius:15px 50px 30px;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.container1 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+}
+.image1 {
+  display: block;
+  width: 120%;
+  height:12%;
+  margin-left:250px;
+   margin-top:5px;
+     border-radius:15px 50px 30px;
+}
+.overlay1 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:250px;
+    border-radius:15px 50px 30px;
+}
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.container2 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+}
+.image2 {
+  display: block;
+  width: 120%;
+  height:12%;
+  margin-left:350px;
+   margin-top:5px;
+     border-radius:15px 50px 30px;
+}
+.overlay2 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:350px;
+    border-radius:15px 50px 30px;
+}
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+.container3 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+}
+.image3 {
+  display: block;
+  width: 120%;
+  height: 91.5%;
+  margin-left:150px;
+   border-radius:15px 50px 30px;
+ margin-top:10px; 
+}
+.overlay3 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:150px;
+  margin-right:10px;
+    border-radius:15px 50px 30px;
+  
+}
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+.container4 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+    border-radius:15px 50px 30px;
+  display:inline-block;
+}
+.image4 {
+  display: inline-block;
+  width: 120%;
+  height:91.5%;
+  margin-left:250px;
+   border-radius:15px 50px 30px; 
+ margin-top:10px;
+}
+.overlay4 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:250px;
+  margin-right:10px;
+    border-radius:15px 50px 30px;
+  
+}
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+.container5 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+   border-radius:15px 50px 30px;
+  display:inline-block;
+}
+.image5 {
+  display: inline-block;
+  width: 120%;
+  height: 92%;
+  margin-left:350px;
+ border-radius:15px 50px 30px;
+ margin-top:10px;
+}
+.overlay5 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:350px;
+  margin-right:10px;
+  border-radius:15px 50px 30px;
+  
+}
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+.mad {
+height:13%;
+/*border:2px ridge Black;*/
+display:block;
+}
+.hat {
+height:4%;
+/*border:2px ridge Black;*/
+display:block;
+}
+H2 {
+FONT-SIZE:60PX;
+FONT-WEIGHT:BOLDER;
+padding-top:30PX;
+text-align:LEFT;
+padding-bottom:3px;
+color:#ffffff;
+margin-left:20px;
+margin-top:40px;
+margin-bottom:20px;
+}
+/*.ant:hover {
+color:#b4323b;
+}*/
+.fire {
+height:4.25%;
+/*border:2px ridge Black;*/
+display:block;
+margin-bottom:20px;
+}
+/*.ant {
+FONT-SIZE:60PX;
+FONT-WEIGHT:BOLDER;
+padding-top:30PX;
+text-align:CENTER;
+padding-bottom:3px;
+color:#ffffff;
+margin-left:20px;
+margin-top:40px;
+padding-top:120%;
+}*/
+
+.overlay:hover{
+color:orange;
+font-weight:bolder;
+font-size:30px;
+}
+.image:hover {
+border:3px ridge black;
+}
+.overlay1:hover{
+color:orange;
+font-weight:bolder;
+font-size:30px;
+}
+.image1:hover {
+border:3px ridge black;
+}
+.overlay2:hover{
+color:orange;
+font-weight:bolder;
+font-size:30px;
+}
+.image2:hover {
+border:3px ridge black;
+}
+.overlay3:hover{
+color:orange;
+font-weight:bolder;
+font-size:30px;
+
+}
+.image3:hover {
+border:3px ridge black;
+}
+.overlay4:hover{
+color:orange;
+font-weight:bolder;
+font-size:30px;
+}
+.image4:hover {
+border:3px ridge black;
+}
+.overlay5:hover{
+color:orange;
+font-weight:bolder;
+font-size:30px;
+}
+.image5:hover  {
+border:3px ridge black;
+}
+
+
+
+</style>
+<div class="cat"></div>
+<body>
+<div class="map">
+  <a href="order.html">
+<button>ORDER ONLINE</button>
+</a>
+<header>DISCOVER OUR JAPANESE CUISINE</header>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWe make the Japanese you crave, all the more yummy. Get it with brilliant offers that'll make you save money!<br>
+Try our wonderful range of flavourful Japanese. From your favourite gravies, sushi, noodles, to popular traditional dishes, we’ve got it all!</p><!--ecause of the different methods of preparation and the use of varying ingredients, there are over 1,000 types of noodle, each with local characteristics. Some famous types can be found all over China.-->
+<div class="dropup">
+  <a href="food.html">
+  <button class="dropbtn">MENU CATEGORIES</button></a>
+  <marquee><strong>Click on MENU CATEGORIES to go Menu Page</STRONG></marquee>
+   <div class="dropup-content">
+  <a href="#noodle">NOODLES</a>
+    <a href="#traditional">TRADITIONAL</a>
+	 <a href="#dessert">DESSERTS</a>
+	  <a href="#drink">BEVARAGES</a>
+  </div>
+  </div>
+   <div class="fire">
+<h2 id="noodle">NOODLES
+</h2>
+</div>
+  <div class="container">
+  <img src="japanese\ram.jpg" alt="Avatar" class="image">
+  <div class="overlay">RAMEN NOODLES<BR>(ラーメン)<br>$15.99</div>
+</div>
+<div class="container1">
+  <img src="japanese\UDON.jpg" alt="Avatar" class="image1">
+  <div class="overlay1">Udon <BR>(うどん) <br>$15.99</div>
+</div>
+<div class="container2">
+  <img src="japanese\BUCKWHEAT1.jpg"alt="Avatar" class="image2">
+  <div class="overlay2">Buckwheat Noodles<BR>Soba(蕎麦)<br>$15.99</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="japanese\hiyamugi.jpg" alt="Avatar" class="image3">
+  <div class="overlay3">Hiyamugi <BR>(冷麦)<br>$15.99</div>
+ </div>
+ <div class="container4">
+  <img src="japanese\Harusame.jpg" alt="Avatar" class="image4">
+  <div class="overlay4">Harusame<BR> (春雨)<br>$15.99</div>
+ </div>
+ <div class="container5">
+  <img src="japanese\SOMEN.jpg" alt="Avatar" class="image5">
+  <div class="overlay5">Sōmen (素麺)<br>$15.99</div>
+ </div>
+   </div>
+   <div class="fire">
+    <h2 id="traditional">POPULAR DISHES(TRADITIONAL)
+    </h2>
+  </div>
+  <div class="container">
+  <img src="japanese\sushi.jpg" alt="Avatar" class="image">
+  <div class="overlay">SUSHI<br>(寿司)<br>$15.99 </div>
+</div>
+<div class="container1">
+  <img src="japanese\TEMPURA.jpg" alt="Avatar" class="image1">
+  <div class="overlay1">TEMPURA<BR>(天ぷら or 天麩羅)<br>$15.99
+</div>
+</div>
+<div class="container2">
+  <img src="japanese\YAKITORI.jpg" alt="Avatar" class="image2">
+  <div class="overlay2">Yakitori Recipe<BR>(焼き鳥)<br>$15.99</div>
+  </div>
+  <div class="mad">
+  
+  
+<div class="container3">
+  <img src="japanese\SASHIMI2.jpg" alt="Avatar" class="image3">
+  <div class="overlay3">SASHIMI<BR>(刺身)<br>$15.99
+ </div>
+ </div>
+ <div class="container4">
+  <img src="japanese\DONBRI.jpg" alt="Avatar" class="image4">
+  <div class="overlay4">DONBURI<BR>(丼)<br>$15.99</div>
+ </div>
+ <div class="container5">
+  <img src="japanese\Shabu-Shabu-3.jpg" alt="Avatar" class="image5">
+  <div class="overlay5">SHABU SHABU(HOT-POT)<BR>(しゃぶしゃぶ)<br>$15.99
+  </div>
+ </div>
+   </div>
+   <div class="fire">
+    <h2 id="dessert">DESSERTS
+    </h2>
+</div>
+  <div class="container">
+  <img src="japanese\MOCHI.jpg" alt="Avatar" class="image">
+  <div class="overlay">Mochi<BR>(もち,餅)<br>$15.99</div>
+</div>
+<div class="container1">
+  <img src="japanese\WAGASHI.jpg"alt="Avatar" class="image1">
+  <div class="overlay1">WAGASHI<BR>(和菓子)<br>$15.99<BR></div>
+</div>
+<div class="container2">
+  <img src="japanese\ONIGIRI.webp" alt="Avatar" class="image2">
+  <div class="overlay2">ONIGIRI(RICE BALLS)<BR>(おにぎり)<br>$15.99</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="japanese\JIGGLY CHEESE CAKE.jpeg"alt="Avatar" class="image3">
+  <div class="overlay3">JIGGLY JAPANESE CHEESE CAKE<br>$15.99</div>
+ </div>
+ <div class="container4">
+  <img src="japanese\Dorayaki.jpg"alt="Avatar" class="image4">
+  <div class="overlay4">DORAYOKI<BR>(RED BEAN PANCAKE)<br>$15.99</div>
+ </div>
+ <div class="container5">
+  <img src="japanese\YOKAN.jpeg" alt="Avatar" class="image5">
+  <div class="overlay5">YOKAN<BR>(羊羹)<br>$15.99</div>
+ </div>
+   </div>
+   <div class="fire">
+    <h2 id="drink">BEVARAGES
+    </h2>
+</div>
+  <div class="container">
+  <img src= "japanese\yakult.jpg"alt="Avatar" class="image">
+  <div class="overlay">YAKULT<br>$15.99
+  </div>
+</div>
+<div class="container1">
+  <img src="japanese\CALPIS.jpeg" alt="Avatar" class="image1">
+  <div class="overlay1">CALPIS<br>$15.99</div>
+</div>
+<div class="container2">
+  <img src="japanese\AMAZAKE.png" alt="Avatar" class="image2">
+  <div class="overlay2">AMAZAKE<br>$15.99
+</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="japanese\MUGICHA.jpg" alt="Avatar" class="image3">
+  <div class="overlay3">MUGICHA<br>$15.99
+  </div>
+ </div>
+ <div class="container4">
+  <img src="japanese\GREEN TEA.jpeg" alt="Avatar" class="image4">
+  <div class="overlay4">GREEN TEA<br>$15.99</div>
+ </div>
+ <div class="container5">
+  <img src="japanese\MATCHA.webp" alt="Avatar" class="image5">
+  <div class="overlay5">MATCHA TEA<br>$15.99</div>
+ </div>
+   </div>
+  
+
+
+
+  </div>
+</body>
+</html>
