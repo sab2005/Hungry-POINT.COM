@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+		.container {
+             BACKGROUND-COLOR:WHITE;
+HEIGHT:450PX;
+WIDTH:600PX;
+BORDER:5PX SOLID BLACK;
+MARGIN:60PX 200PX 200PX 450PX;
+cursor:pointer;
+}
+.container:hover {
+opacity:0.55;
+}
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+			font-size:26px;
+			font-weight:bolder;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+			margin-top:3px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+		HEADER {
+font-family:algerian;
+FONT-SIZE:60PX;
+FONT-WEIGHT:BOLDER;
+color:blue;
+cursor:pointer;
+}
+BODY {
+background-image:URL("https://mytable.world/wp-content/uploads/2022/06/Restaurant-Reservation-Services.jpg");
+background-position:right;
+background-size:100% 135%;
+background-repeat:no-repeat;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  MARGIN-left:700px;
+}
+
+a:hover, a:active {
+  background-color: forestgreen;
+}
+
+
+    </style>
+</head>
+<body>
+<HR>
+<HEADER><CENTER>RESERVE YOUR TABLE</HEADER></CENTER><HR>
+
+    <div class="container">
+        <h2>Make a Reservation</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+	<A HREF="PROJECT.HTML">HOME PAGE</A>
+</body>
+</html>
