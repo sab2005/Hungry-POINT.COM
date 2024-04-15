@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 190%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 220px; /* Adjust margin to accommodate sidebar width */
+    padding: 20px;
+    display:inline-block;
+}
+
+.menu-item {
+    width: 300px;
+    
+    margin-bottom: 20px;
+	display:inline-block;
+}
+
+.menu-item img {
+    width: 100%;
+    height:200px;
+    border-radius: 5px;
+	display:inline-block;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    display: inline-block;
+    font-weight: bold;
+    color: #007bff;
+}
+button {
+background-color: #f44336;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  MARGIN-LEFT:350PX;
+  font-size:19px;
+  }
+button:hover {
+  background-color: red;
+}
+ button:active {
+ background-color:red;
+ }
+ /*another button*/
+ .sab {
+background-color:#f44336;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  MARGIN-LEFT:350PX;
+  font-size:19px;
+  }
+.sab:hover {
+  background-color:forestgreen;
+}
+ .sab:active {
+ background-color:forestgreen;
+ }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+    <a href="#appetizers">
+        <img src="south korean\appetizer.jpg" alt="Appetizers"> Appetizers
+    </a>
+    <a href="#main-courses">
+        <img src="south korean\main course.jpg" alt="Main Courses"> Main Courses
+    </a>
+    <a href="#desserts">
+        <img src="south korean\dessert.jpg" alt="Desserts"> Desserts
+    </a>
+	<a href="#drinks">
+        <img src="south korean\bevarage.jpg" alt="Bevarages">Bevarages
+    </a>
+</div>
+
+<div class="content">
+    <h2 id="appetizers">Appetizers</h2>
+    <div class="menu-item">
+        <img src="south korean\gamjajeon(app).jpeg" alt="Appetizer 1">
+        <h3>Gamjajeon</h3>
+        <p>Description of appetizer 1.</p>
+        <span>$5.99</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="south korean\Gimmari (Fried Seaweed Roll)app.jpeg" alt="Appetizer 2">
+        <h3>Gimmari (Fried Seaweed Roll)</h3>
+        <p>Description of appetizer 2.</p>
+        <span>$6.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Korean macaroni salad(app).jpeg" alt="Appetizer 2">
+        <h3>Korean Macaroni Salad</h3>
+        <p>Description of appetizer 2.</p>
+        <span>$6.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\mandu(1)(app).jpeg" alt="Appetizer 2">
+        <h3>Mandu</h3>
+        <p>Description of appetizer 2.</p>
+        <span>$6.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Sanjeok (Meat and Vegetable Skewers).app.jpeg" alt="Appetizer 2">
+        <h3>Sanjeok</h3>
+        <p>Description of appetizer 2.</p>
+        <span>$6.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Sotteok Sotteok (Rice Cake and Sausage Skewers).jpeg" alt="Appetizer 2">
+        <h3>Sotteok Sotteok</h3>
+        <p>Description of appetizer 2.</p>
+        <span>$6.99</span>
+    </div>
+
+    <!-- More appetizers -->
+
+    <h2 id="main-courses">Main Courses</h2>
+    <div class="menu-item">
+        <img src="south korean\bibimbap(main course).jpg" alt="Main Course 1">
+        <h3>Bibimbap</h3>
+        <p>Description of main course 1.</p>
+        <span>$12.99</span>
+    </div>
+    <div class="menu-item">
+        <img src="south korean\dak-galbi(main).jpeg" alt="Main Course 2">
+        <h3>Dak-galbi</h3>
+        <p>Description of main course 2.</p>
+        <span>$14.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Jajangmyeon(main).jpeg" alt="Main Course 2">
+        <h3>Jajangmyeon</h3>
+        <p>Description of main course 2.</p>
+        <span>$14.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Korean stew (jjigae)(main).jpeg" alt="Main Course 2">
+        <h3>Jjigae(Korean stew)</h3>
+        <p>Description of main course 2.</p>
+        <span>$14.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Tteokkbokk(main).jpeg" alt="Main Course 2">
+        <h3>Tteokkbokki</h3>
+        <p>Description of main course 2.</p>
+        <span>$14.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\kimchi fried rice.jpeg" alt="Main Course 2">
+        <h3>kimchi fried rice</h3>
+        <p>Description of main course 2.</p>
+        <span>$14.99</span>
+    </div>
+
+    <!-- More main courses -->
+
+    <h2 id="desserts">Desserts</h2>
+    <div class="menu-item">
+        <img src="south korean\Dasik (pressed cookies).jpeg" alt="Dessert 1">
+        <h3>Dasik (Pressed Cookies)</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="south korean\Hodo-gwaja (walnut cookie).jpeg" alt="Dessert 2">
+        <h3>Hodo-gwaja (walnut cookie)</h3>
+        <p>Description of dessert 2.</p>
+        <span>$3.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\sikhye(desserts).jpeg" alt="Dessert 1">
+        <h3>Sikhye</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+	 <div class="menu-item">
+        <img src="south korean\Bungeoppang(desert).jpg" alt="Dessert 2">
+        <h3>Bungeoppang</h3>
+        <p>Description of dessert 2.</p>
+        <span>$3.99</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="south korean\Bingsu(dessert).jpeg" alt="Dessert 2">
+        <h3>Bingsu</h3>
+        <p>Description of dessert 2.</p>
+        <span>$3.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Yaksik(dessert).jpeg" alt="Dessert 1">
+        <h3>Yaksik</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+    <!-- More desserts -->
+	<h2 id="desserts">Bevarages</h2>
+	<div class="menu-item">
+        <img src="south korean\dalgona coffee.jpeg" alt="Dessert 1">
+        <h3>Dalgona Coffee</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\mistugaru latte.jpeg" alt="Dessert 1">
+        <h3>Mistugaru Latte</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Ginseng tea.jpeg"" alt="Dessert 1">
+        <h3>Ginseng Tea</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+	
+	<div class="menu-item">
+        <img src="south korean\Omija tea.jpeg" alt="Dessert 1">
+        <h3>Omija Tea</h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\Sujeonggwa (수정과).jpeg" alt="Dessert 1">
+        <h3>Sujeonggwa </h3>
+        <p>Description of dessert 1.</p>
+        <span>$4.99</span>
+    </div>
+	<div class="menu-item">
+        <img src="south korean\milkis(drinm).jpeg" alt="Dessert 1">
+        <h3>Milkis</h3>
+       <!--- <p>Description of dessert 1.</p>-->
+        <span>$4.99</span>
+    </div>	
+</div>
+<a href="PROJECT.html">
+<button>HOME PAGE</button>
+</a>
+<a href="food.html">
+<button class="sab">MENU </button>
+</a>
+</body>
+</html>
