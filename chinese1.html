@@ -1,0 +1,597 @@
+<html>
+<head>
+<title></title>
+<style>
+.cat  {
+height:620px;
+padding:5px 5px 5px 5px;
+border:2px ridge black;
+background-image:url("tt.webp");
+background-repeat:no-repeat;
+background-size:100% 100%;
+width:auto;
+}
+button {
+BACKGROUND-COLOR: #ee3f4b;
+padding: 8px 14px;
+font-family: font2;
+color: #fff;
+letter-spacing: 1px;
+border-radius: 4px;
+font-weight: 300!important;
+font-size: 20px;
+box-shadow: 0 11px 9px #00000045;
+margin-left:700px;
+margin-top:20px;
+}
+.map {
+height:2000px;
+padding-bottom:85%;
+border:2px ridge black;
+width:auto;
+background-image:url("https://img.freepik.com/free-vector/hand-drawn-floral-wallpaper_52683-67169.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:fixed;
+}
+header {
+margin-bottom: 0;
+display: inline-block;
+color: #333;
+padding: 7px 1px;
+font-size: 60px;
+margin-top:60px;
+text-align:center;
+line-height:1;
+line-space:1px;
+line-weight:bolder;
+margin-left:300px
+}
+p {
+margin-left:380px;
+line-height:1.40
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+  margin-left:720px;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color:#ddd}
+
+.dropup:hover .dropup-content {
+  display: block;
+  BACKGROUND-COLOR:tan;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.container {
+  position:relative;
+  width: 100%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+	
+  
+}
+
+.image {
+  display: inline-block;
+  width: 120%;
+  height: 12%;
+  margin-left:150px;
+   margin-top:5px;
+     border-radius:15px 50px 30px;
+	
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding:20px;
+  text-align: center;
+  margin-left:150px;
+    border-radius:15px 50px 30px;
+  
+}
+
+.container:hover .overlay {
+  opacity:1;
+    
+
+}
+.container1 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+}
+.image1 {
+  display: block;
+  width: 120%;
+  height:12%;
+  margin-left:250px;
+   margin-top:5px;
+     border-radius:15px 50px 30px;
+}
+.overlay1 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:250px;
+    border-radius:15px 50px 30px;
+}
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.container2 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+}
+.image2 {
+  display: block;
+  width: 120%;
+  height:12%;
+  margin-left:350px;
+   margin-top:5px;
+     border-radius:15px 50px 30px;
+}
+.overlay2 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:350px;
+    border-radius:15px 50px 30px;
+}
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+.container3 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  display:inline-block;
+    border-radius:15px 50px 30px;
+}
+.image3 {
+  display: block;
+  width: 120%;
+  height: 91.5%;
+  margin-left:150px;
+   border-radius:15px 50px 30px;
+ margin-top:10px; 
+}
+.overlay3 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:150px;
+  margin-right:10px;
+    border-radius:15px 50px 30px;
+  
+}
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+.container4 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+    border-radius:15px 50px 30px;
+  display:inline-block;
+}
+.image4 {
+  display: inline-block;
+  width: 120%;
+  height:91.5%;
+  margin-left:250px;
+   border-radius:15px 50px 30px; 
+ margin-top:10px;
+}
+.overlay4 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:250px;
+  margin-right:10px;
+    border-radius:15px 50px 30px;
+  
+}
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+.container5 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+   border-radius:15px 50px 30px;
+  display:inline-block;
+}
+.image5 {
+  display: inline-block;
+  width: 120%;
+  height: 92%;
+  margin-left:350px;
+ border-radius:15px 50px 30px;
+ margin-top:10px;
+}
+.overlay5 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 107%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left:350px;
+  margin-right:10px;
+  border-radius:15px 50px 30px;
+  
+}
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+.mad {
+height:13%;
+/*border:2px ridge Black;*/
+display:block;
+}
+.hat {
+height:4.25%;
+/*border:2px ridge Black;*/
+display:block;
+}
+h2 {
+FONT-SIZE:60PX;
+FONT-WEIGHT:BOLDER;
+padding-top:30PX;
+text-align:CENTER;
+padding-bottom:30px;
+color:#ffffff;
+margin-left:20px;
+margin-top:px;
+margin-bottom:30px;
+text-align:left;
+color:#b4323b;
+}
+/*h2:hover {
+color:#b4323b;
+}*/
+.fire {
+height:3%;
+/*border:2px ridge Black;*/
+display:block;
+margin-bottom:20px;
+}
+/*.ant {
+FONT-SIZE:60PX;
+FONT-WEIGHT:BOLDER;
+padding-top:30PX;
+text-align:CENTER;
+padding-bottom:3px;
+color:#ffffff;
+margin-left:20px;
+margin-top:40px;
+padding-top:120%;
+}*/
+
+.overlay:hover{
+color:orange;
+font-weight:bolder;
+font-size:40px;
+}
+.image:hover {
+border:3px ridge black;
+}
+.overlay1:hover{
+color:orange;
+font-weight:bolder;
+font-size:40px;
+}
+.image1:hover {
+border:3px ridge black;
+}
+.overlay2:hover{
+color:orange;
+font-weight:bolder;
+font-size:40px;
+}
+.image2:hover {
+border:3px ridge black;
+}
+.overlay3:hover{
+color:orange;
+font-weight:bolder;
+font-size:40px;
+
+}
+.image3:hover {
+border:3px ridge black;
+}
+.overlay4:hover{
+color:orange;
+font-weight:bolder;
+font-size:40px;
+}
+.image4:hover {
+border:3px ridge black;
+}
+.overlay5:hover{
+color:orange;
+font-weight:bolder;
+font-size:40px;
+}
+.image5:hover  {
+border:3px ridge black;
+}
+
+
+
+
+</style>
+<body>
+<div class="cat">
+</div>
+<div class="map">
+<a href="order.html">
+<button>ORDER ONLINE</button>
+</a>
+<header>DISCOVER OUR CHINESE CUISINE</header>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWe make the Chinese you crave, all the more yummy. Get it with brilliant offers that'll make you save money!<br>
+Try our wonderful range of flavourful Chinese. From your favourite gravies, momos, noodles, to special recipes, we’ve got it all!</p><!--ecause of the different methods of preparation and the use of varying ingredients, there are over 1,000 types of noodle, each with local characteristics. Some famous types can be found all over China.-->
+<div class="dropup">
+  <a href="food.html">
+  <button class="dropbtn">MENU CATEGORIES</button></a>
+   <div class="dropup-content">
+  <a href="#noodle">NOODLES</a>
+    <a href="#soup">SOUPS</a>
+    <a href="#rice">RICE</a>
+	 <a href="#desserts">DESSERTS</a>
+	  <a href="#drink">BEVARAGES</a>
+  </div>
+  </div>
+  <div class="hat">
+<h2 id="noodle">NOODLES
+</h2>
+</div>
+
+  <div class="container">
+  <img src="CHINESE FOOD\soyabean.jpeg" alt="Avatar" class="image">
+  <div class="overlay">Soybean Paste Noodles<br>(Zhajiangmian北京炸酱面)<br>$15.99</div>
+</div>
+<div class="container1">
+  <img src="CHINESE FOOD\sichuan.jpeg" alt="Avatar" class="image1">
+  <div class="overlay1">Chengdu Dandan Noodles<BR>(Dandanmian成都担担面)</div>
+</div>
+<div class="container2">
+  <img src="CHINESE FOOD\sliced.jpeg" alt="Avatar" class="image2">
+  <div class="overlay2">Xi'an Sliced Noodles<br>(Daoxiaomian 西安刀削面)</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="CHINESE FOOD\xio mian.jpg" alt="Avatar" class="image3">
+  <div class="overlay3">Chongqing Spicy Noodles<br>(Xiaomian 重庆小面)</div>
+ </div>
+ <div class="container4">
+  <img src="CHINESE FOOD\henan.jpeg" alt="Avatar" class="image4">
+  <div class="overlay4">Henan Braised Noodles<br>(河南烩面)</div>
+ </div>
+ <div class="container5">
+  <img src="CHINESE FOOD\wonton.webp" alt="Avatar" class="image5">
+  <div class="overlay5">Guangdong's Wonton Noodles<br>(Yuntun Mian 广东云吞面)</div>
+ </div>
+   </div>
+   <div class="fire">
+  <h2 id="soup">SOUPS</h2>
+  </div>
+  <div class="container">
+  <img src="CHINESE FOOD/sour soup.jpg" alt="Avatar" class="image">
+  <div class="overlay">Hot and Sour Soup<br>(酸辣汤) </div>
+</div>
+<div class="container1">
+  <img src="CHINESE FOOD\red-bean-soup-.jpg" alt="Avatar" class="image1">
+  <div class="overlay1">RED BEAN SOUP<BR>Hóngdòu tāng(
+红豆汤)</div>
+</div>
+<div class="container2">
+  <img src="CHINESE FOOD\EGG.jpeg" alt="Avatar" class="image2">
+  <div class="overlay2">EGG DROP SOUP<BR>( 蛋花湯)</div>
+  </div>
+  <div class="mad">
+  
+  
+<div class="container3">
+  <img src="CHINESE FOOD\woton soup.jpg" alt="Avatar" class="image3">
+  <div class="overlay3">WONTON-SOUP<BR>Yún tūn tāng(云吞汤)
+ </div>
+ </div>
+ <div class="container4">
+  <img src="CHINESE FOOD\soup dumplings.jpg" alt="Avatar" class="image4">
+  <div class="overlay4">DUMPLINGS SOUP<BR>Xiao Long Bao(小笼包)</div>
+ </div>
+ <div class="container5">
+  <img src="CHINESE FOOD\MUSHROOM.jpeg" alt="Avatar" class="image5">
+  <div class="overlay5">MUSHROOM SOUP<BR>Mógū tāng(蘑菇汤)
+  </div>
+ </div>
+   </div>
+   <div class="hat">
+<!--<span class="ant">RICE
+</span>--->
+<h2 id="rice">RICE</h2>
+</div>
+  <div class="container">
+  <img src="CHINESE FOOD\FRIED RICE.jpg" alt="Avatar" class="image">
+  <div class="overlay">YANGZHOU FRIED RICE<BR>yáng zhōu chǎo fàn(扬州炒饭)</div>
+</div>
+<div class="container1">
+  <img src="CHINESE FOOD\EGG FRIED RICE.jpg" alt="Avatar" class="image1">
+  <div class="overlay1">EGG FRIED RICE<BR>dàn chǎo fàn(蛋炒饭)</div>
+</div>
+<div class="container2">
+  <img src="CHINESE FOOD\HAINESE CHICKEN RICE.jpg" alt="Avatar" class="image2">
+  <div class="overlay2">Hainanese Chicken Rice<BR>hǎi nán jī fàn(海南鸡饭 )</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="CHINESE FOOD\GRASPING HAND.jpg"alt="Avatar" class="image3">
+  <div class="overlay3">Xinjiang Hand Grasping Rice<BR>xīn jiāng shǒu zhuā fàn(新疆手抓饭 )</div>
+ </div>
+ <div class="container4">
+  <img src="CHINESE FOOD\CHEESE BAKED RICE.jpg" alt="Avatar" class="image4">
+  <div class="overlay4">Cheese Baked Rice<BR>zhī shì jú fàn(芝士焗饭)</div>
+ </div>
+ <div class="container5">
+  <img src="CHINESE FOOD\Bamboo-Rice.jpg" alt="Avatar" class="image5">
+  <div class="overlay5">Rice in Bamboo Tube<BR> zhú tǒng fàn(竹筒饭 )</div>
+ </div>
+   </div>
+   <div class="hat">
+    <h2 id="desserts">DESSERTS</h2>
+</div>
+  <div class="container">
+  <img src="CHINESE FOOD\EGG TART.webp" alt="Avatar" class="image">
+  <div class="overlay">EGG TART<BR>Dàntà(蛋挞)
+  </div>
+</div>
+<div class="container1">
+  <img src="CHINESE FOOD\DRAGON CANDY.jpeg" alt="Avatar" class="image1">
+  <div class="overlay1">DRAGON BEARD CANDY<BR>(	龙须糖)</div>
+</div>
+<div class="container2">
+  <img src="CHINESE FOOD\ALMOND JELLY.jpg" alt="Avatar" class="image2">
+  <div class="overlay2">ALMOND JELLY<BR>Xìngrén dòng
+(杏仁冻)
+</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="CHINESE FOOD\SWEET SOUP.jpeg" alt="Avatar" class="image3">
+  <div class="overlay3">SWEET RICE BALLS<BR> Tang Yuan(/汤圆)</div>
+ </div>
+ <div class="container4">
+  <img src="CHINESE FOOD\SAGO.jpg" alt="Avatar" class="image4">
+  <div class="overlay4">MANGO POMELO SAGO PUDDING<BR>(杨枝甘露)</div>
+ </div>
+ <div class="container5">
+  <img src="CHINESE FOOD\sweet egg buns.jpeg" alt="Avatar" class="image5">
+  <div class="overlay5">SWEET EGG BUNS<BR>
+Tián dàn bāo(甜蛋包)</div>
+ </div>
+   </div>
+   <div class="hat">
+<h2 id="drink">BEVARAGES
+</h2>
+</div>
+  <div class="container">
+  <img src="https://cdn.tasteatlas.com//images/ingredients/33d9a01984524585863a3672fa24ab0f.jpg?w=905&h=510 alt="Avatar" class="image">
+  <div class="overlay">Longjing tea(Longjing cha)</div>
+</div>
+<div class="container1">
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFhYYGRgZHBwcGBwcHBocGBwcHBocHBwaHBocIS4lHB4rHxoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQsJCs0NDQ0NjQ0NDQ0NDQ0NjQ0NDQ0NDQ0NDQ0NDQ0NDQ1NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAADBAIFAAEGBwj/xABCEAABAwIDBAcFBgQGAQUAAAABAAIRAyEEEjEFQVFhBiJxgZGh8BMyscHRBxRCUuHxI2JyghUWM5KistIkU6PC0//EABoBAAIDAQEAAAAAAAAAAAAAAAABAgMEBQb/xAAoEQACAgICAQMEAgMAAAAAAAAAAQIRAyESMQQTQVEiMmGBcZEFFcH/2gAMAwEAAhEDEQA/AHGNU2tTzMIiMwq0WgFW00drAexNDCGEvVokFOxEhSG5Y6iommRvste1dYRrpx/ZF0FBmU0wylEJRlRwHWjuumGu7fFLkh0MCnOi21iE2uBab8ER1U+vqkpJiox0qdNgO5Qa8EwbHdz7D8lNjYOtlJOwI4jDNe1zHCWuBBHIiF4NtLBmlWqUj+B7m+Bt5QvoB7lxG2OhBxGKfVzimx8F1pJdoQOGkyqc0XJKiEo2eYhu5Fp0t69YZ0AwgAu8xr1teeitMF0dwtL3aTCdxd1zP9yz+hN/CI8GeX7L2M94D3NLWfmNs3ZxXZYamA0AaAK52/7g0F9yq6KksKg/yWRiooMxirNqbJnrNE8RwVxTCbpMUMuFZI0/0wlFSVM8+fs9om11FmGhelf4ex4hzQe5LO6KUXX647DbzWCXiZl00yh4H7M4L2cKGZegjofR3uf5fROYbo9h6d2sk8XXP0Sj4mR90hRwyvs4fZXRx9TrvBazzPZyXQDDNYA1ogC0BdG+kq7EUbq6XjqMflmhRUSvZTspUqaew9C6G+jlJC5H+RwuMVL9CkrIRyW1HK3iFpckVItX0LqbIG6YhCLiTKcYREr35YRLZQK2HlFqu4LYeEgEX0YB5BVuzXhzM7jd4Bnmbgdl7K8xNmOI/K74Fc/sBpDGhsEZSMp3TqWnnwPHcq8k3aVk4q02WIozr+yKylClQO6I9ckapGtvFLm6sdbEKDQXu4jwujPL+XcpMYJJ4omW2nao45yqmOSVlZjMTkbEWLmNGtszg0EHvCLg9olzQXXNwTa5FibbigbWHUMgGIMHSxBB56eSkwAi3AfAfQqUZvnV+wpRXGx9lad6LTeFUvaQEJlZw4rQpldF1XqkCdEg/aEc0jWxTzrolX1JBSlL4CieO2hnAabKOHKpcUys+GsbLpBAEfOwHMq8wdMAAVHjOBdrDIH9x+QKrk7Y60OUgrDDtS9DLub4kn4QrLDtHADx+qEIPTYm6bFCkxM0xBTESaxbdTncjMYitYnQFbVoJGpRuuhdSS1bCyouNgVGGoXUdt4bLD+Igjs3q0YxrdUDGQ8mRaIhUZ/GjnxPG/1+GJ9HI+1PALFd/wCGN4rFxf8AVeQKxssHBR+aMBIQXNsvStEyTouo0tNFghbHEJUALG/6b/6HfAqn2DThrexWW0X5aT3GAMjvgqzZb3Oa1rQZgLLnajJX+S7Griyze9rblLVK8mP0CbZs0XLzMqNai0EGBbzWac5VtpE4x+ANKt12sAPAnUym6xyujiNUu12U5hHAfNGfUBILgYCUM8Wmr2EoP4ENqsBab/hNt19PgUDZTMxeOTSOP4pT+MpseCG36um+RJ+iU2If4oERNN//ABcyPJxU8U7mmn2KS+loYdhz3IL8MCrt9NQdRHBdCjOc/Uw3JI4nDcPJdQ/C7wlqmD5DuRQFThKGSiTHWfcneRuHZquXxNQuqOGgaR3leg4ihDBaRABGh01B4rmtobJa8yx4DtwdDXdkGzu4lVzjaoadMBh9qPYYIzDzV7gNs0z70tPMT5hctVwdZhJexwHGDCLhKgO+Vn5yiydRaPQ8HimOiHtPeE+2DdcPhaLnaMcewEq2w1Ej3nZeQMu8AYHeQrVm/BFxOofWY33nAcJWhtGkPxg9l/gqLE3YddRqZPeUGmFKWSugUbOiO1Gbg490fFK4jaD3CGgN8ykmkDWyicU2YHWPL6pcpS6HxihmkIlzjPElEoODnCY1SeYu17h61W20iL/Dcr8caWyEnZcfd2rFX/eHfmPgFtWFYBpstOIlQAlptH7KbG6JEzAy11uBophkLbQgLEdtsLqFRg1c0t53tZE2fTYxjS3UgX7tQt7SxLaTM7vdkA9l5QaTA4B7HAs3RpEaLmebJqSrejVgVx2Hq1TIA3oNVk2WmYiIkbzqgVMaIK5k8safJmhRfsZUbeANEZr5YkGYqdxv5cypUMRIIWdZknr3JuLJwNZgiDKhsmqHVmQAIL220gtPzaEuWOcRNgrTZOB9kA51nF0AHW51+K1eHOUpp1STIZUuD+S7NMILmJpQNNejo5orlUQwFMvplDbTMiUAQq07JCrgQ48l0HsAbnuWZWjQAfHxVDmkhNnJM2U0Hqhzb/hJbPPqwmG4Jwj+JU73E/NXtR6GSqvWvpBZS4nBvIHWzdpJUKVN7TBb56q4q0zH1Epcvj3h3i47wq3lgn9SaJRk+iHs3OY4G2mlzYgpduDM3e4juHwCs2stO471FjBmjctkIxlFNCcmLswTd4nmSTuTApwLAJrKAO/5LTKctJ4SrFFIXI1SiwNuHNZUIEgTPrRQpBu8ojHtm2vNTIkIWJiDw/5fosQIRpe6i02BLUagIjeEdhSLCbma9q01mqzd2lbb80Ac508dlwkcXR4tcvO9i9JKlIQHG27cV6B9ohH3ZrTaXfAFeLUapgjmsHlY1KR0fE+1/wAnpuD6W5hLwHAm26PV1c4faNF4FgD2ryTCYggxHNW2Hx5aZBK5mTBT+f5NvpKS1o9Ko4hhJaBC1QxbC8sEAiCYG48+5cadokgHMUTZmMJcTfmSVjcGlddDWDTZ12Id1+oJdG8+oT1Ks7LNR1xBkcdwBKp8HV6wG7Lmd5/QIWI2jnfl/CCPGwsrcaWN37v+jNxclXsdxhuuxrjNwDqY8rKfswh7HdNFnKR4EhNuavSwVxTOXLTaAez4E+J+C04ERoeE2KPC5zpbtF1BtJzbHP5Bp+qhmlwg5fAopydHRsq5uRG46hSIuVQYDbDKrQ5ph4uW7+ccQVbsxAIkXkbljjkjJXZFxaZqoBOqHCxxlaBRETCtbZLVW2TBcIUPu7naDvNgicbEhTByJbqNY4I5JmwAlPUsIGtdF3EXP0SbWOiTcerrX40eMaBuyLcx48Tw7lovcBlmynlIO/fK0aRsYkLQBAGdVuDrwWstp8t621pJ1QBv2nb4rFr2LliBCJpXkEphhOpuol+h0mfjCO0etyCwYp3HepZdEGgNeaYQRZxf2lvilTHEvPg0Lxp5DXERF1639qD/APRH9Z+AXlW1WxUkbwD5QseZ3kr8HS8TUA+GqQBylToNzOgFJYYWTzKeWHA68Vkkkmzo42WD2AWBKuejjwxxzCQdZXPvc4tD46psCmdm4kl2WdbeKyzjJrRfLcGjuXgZntaOsGNMcQ5u7vmyo8M8tqX3HvVltRxbWef5GjwSGHxJces0PFon3tbQ7WOUwjJFerSMWJtYz0jo3VBo6/id53+atlQ9GQPZSwESZLXag8ByVzndy8T9F3MV8FZyMn3sIAuA+0yvDqLJ3Od4kD5LvgTy8yuA6aYwjEAMaMzWAZ4BcJkw2R1ddRdV+U16TTDF9xWbJwr2lj3ksaQCBo93YNQ3+Y90qyxGNeyu8NcQMxi+43SWz2G7nElxi5Mk9pKJtT/WPMMPixq4mVLh+yyXZ0OE2q8i5ntVjRxZOoHgFzmCVxh0sM5dWUyLqjWTjHKto7k/TW/G2VhzokRXFhYZtOEp5xsqljJMTvst+HpiDU3gEjh3E+tFmcC2kHfvG6EPECQ0g8jC0AAAbnceI58leAXMBcQQgP1PGdEVwibdv7b0FtTkOXGPUoEZLPyuWKftOQ8FiAAOZpbhPiiNYPXFQD1vMiydDDBCmlg9YHoCjz77V6nWpD+U/FecYp05TwC7r7U6k1GDgz4leeOfbnuWLKrnZ0/HVY0FpcAmq9cFuXeq9j4ITYeCZKolHds2QZc4N2bDFuuU2WbBoA4mkBveJ7jKlssDJAgXntCt9gYMNxVM8Mzp/sKyxl9bj8sslJKLX4ZdbVwzn1nhtzkFhcyShYDZDmPa97gI/D7zp5wYHiVfvhhLgIc8AE7wBoBwQKfvN71dKCcm/cwxm+PFdE8NtVzGkMG/eLo3+YKvLwCrXM48/iolgRHJNe7IenF7ot2dI6k3YD3fQqmx7PbVHVA4AujqutoALHTcjMCnkG9TcpSVN2L04rpCtCm5tnCDZa2k3+Iw8WN8iW/JMsdl6ruszzHMHcobWpwaZBkZXAHseSPJwWTyItRKskaD4JW9BVGBVvQVGAzzLShuVhTVdRNlYU10MZUHdokS255kp46JZ7d634e2JgQyTrH1W3XEgwfXrvWzpZBeO2DZaAIvkm5IPHVQqAbghOcbKHtTEEW+CACZisQ/at/MfD9VtAEBUvyWGoq2risoC195ESqeSLaZZGsonEKqqY3glK2NdfclzQ+LOQ+0mrmrDk0LhAV0/Tqq4VWl15a3/aSRI7wR3LmKDpa4HUHyVT22zbimklELTYC4CdU7WwjmiRJHwVW9xaQQCfgrjBY+Ia7eqsikqaNEZq6XsTwOLLSJXa7ArN9qy/vSGnnBMeULkH4Vr5LCAeB+qF9/cwNgwWukdqyyipSUo9o0T4yj2er40knuCEx/Wb2n4Ki2V0np1QG1CGPiJPuu+hV2ILmkabzMjTiFLlv8mNxa0yNcmbIRBhGrPue9aDwlWxWZTBlGYCoMeERpJMAFWQQMG/go45kUqZO57o7HNBH/AFKsKGEEy/8A2j5lD20Jp9jmHyc35hQ8mnB0VzX0gMCregVTYEq4w5WHAYplnQ0VhSVfRKepLoQKxg6IQeJg6GPgpk2SdR/W17ltw9sGSLxflr64KDnW105WQasgysZIE8rLURNVGSTuSxPYiV6wB5ep80lWrgmJQMJPIeSxKe3PNaQFMqyT3lY5pCm8EHTdPCbBRpvnMeCzNF9oE66DWTjaciY7UtiWEc1BoZyvSrBitQLmke1oZpafx0nQTHNjwT/f4cKyoC0gWcYXcbepvBzMJDhoVxeIw7XuMEMcdQ6zCeR/D2FStPQ1Jx/ghhKxDXBwNhIPZuWsO/M6Jg7ufJDq0arASWnKd+rfEWQaVXKQQLjmjj20TjmapX/Zaff/AGboiRabwjY4Q4xpDYVRVxTnGSB4JjDElskz1t6g8aWy6GXlKrsYzaq22ZterT0efGypm6o9MqqcU1TNkZNaO0w3Sd594NPaFYUttz+Bvn9VxOHVxhtVinFp6b/sscYP2Otw+0J/CPXarGlXJ3rncHuV3htEQbvZRJJdFtSKFtNs039gPg9v6qdE2CzGjqP/AKHfCytmri0Uz+1lbgirig5c7QxAa0ucYAEknQAb0bYXSGjiHFtMk5dTFt2h36hZcOOT2kc2bOuw5T1F1lybeklFmIZhiTncYGkaE7+xW+061YNAoNa55I94lrQ2esSQDu3Qt8McrSeitySVj2O2pTpOpse4B1V2Rg3uMTYIZAAGu/zcT81mMgM9o5mZ7Gl7REuDsps3gSJHegbKqOdRYagioWNLxuD4GYdxkdy2YeyKbbGiBE+rpZ9TKNJvv4Qil7cp4nQqkxWPyHJ7zjo0RPfwF9TZaG0iaQXE4oZTugnsiNfIJTC4eriHRTEN3uNgOz6nuBVhg9hlw9riXBrBfLoO+fie4DVNYjaZP8HDtIGlpDu+Lt7Pe45dVXKTf8E0qBf5OP8A7p/5/wD6LFH/AAXEcG+A/wDNYoUhlWykXzwEC43Xt2qNOkAL7z5LKj3OMSZAJM8T+lkUN60RIt2X3qygMzCIAQKjJ59idbhxuutFiVDsosbgQ4HMua2j0Ya+SAu7fSHNKvo6lR4oOTPMv8tVmHMx7m9hjyTDaGK0cyhU5vo03HxABXf1MOh/dxKdILOGbhqm/DYUdlEfNyqNrsLXQWsabWa1rW/7W2XqLqIXm3Ss/wDqHxuMeAAUcnRd4+5FO0pinolgEzSWeR0kWGGVxhFUYZXGEWKfZYXWE3K7w2io8LuV3htFGPZVMtaOinWbIjjbxBCHQ0RX6K8oZwvRyjWGdlchzSeqNRBFwZTuAx+Aw1Y0W5WPdGaJjiGk6DWYVNtLpRTw9d9Msc7K4yQRpPNWjKeDqAYtzGkNGYOIuMomTHvRG9CtO5JpP4OZJF7i6GDw9T77WIDwMrS42BPAcSr3Ze12V6PtqQLwQ7KLXLZEaxqOK4zZu3sFjn+zfTDgzrD2gbl/LaTrdXf+OUKQDGGmxjbQ0gADg1jdVcm9Jpt/8K3GjeB2i/DMzYpxNbEVC4MkEMbAa1oiwa1gzGN8qxweN/hh82dLutaziT8CFz228Uyq+mGsLnEXtDiCbXPuMibnmY4XmB6OPrdfEODaTbtYBlZA4g+8Obrclpg6bfuTjGkBpV6uIdkw7erN6hFu1s/9jbhOiuqGDw+EBLjnq2c4k6Hc5zjpyOuuUblmK2o1n8DDs63Btnf1GR1W/wAzpJ3NNip4XZAYPbYhwkXDb5Wk8JkucdJMuPHcpO29kgTKVfEuzEljBodD/aNW9vvc26IuIx1HDNyUgHP0nUA6kW9478o01JGqUx+23VXGjh2mBYgSD2OLdP6WmfzFiawGxmUh7SuQ50WFoAG6BaB+UQ0czdAyu/zDiOJ/+H/yWLoP8dp8PP8ARYimBxtCoSesJ48d/wBU5R6u7WDJ7jHxS2Hgg3Hu238EzSaDpqb/APFTsBqo0b59fshPLRHz5qT3H12fol3G5n1aUWBCve4S4B03ojqg3cChseNY9SlY6NDnp2efmtClLt8eXrVTdVG5ANeJlFoKI1HC4Ai+/VeU7ffmrPP8zvivTqtfw7bWv3ryjGVcz3GbyfO6hlfVGjx9SYBMUjZLApmgs8ujoRLHCq3waqMOVcYRYp9lhc4XcrrDaKkw25XOGSj2UzLWgUw/RK0Cmdx7D8Foiilnn+0sLhfb1BXqMcc0hriAWyAY1nW6JSq4NoyioxrQLA1IaBwAlOY/Y4rve8tjrvH+1xb4WVJtfZmHw7A6pF7AficeAA+K3LDcU2zmy+5h8TjtngBuYPvcUmv63IubE95V/wBHej7qha9mH9iw3Dnw+q4fyMJyt/qdI01mVTfZ5TwWIxDc9UNqCTTpuaWtMcCbPdviRxiy9hdiWtGWncnfrI4g6Rz04TohRQCtHAUcOMzmgu1AmT/U5ztTp1nQBYDmCoa+JMNJYyfeizf6A4Xd/M4W3AFP0sBMuqG2pm3eSeW89wASm09thgyUgeAgXP8ATNmj+Y8bAyCpASdUw+BYYjNq4k3k/ie4ybntcdwKqKbMRjXZpLKX5jLXEbw0asBHDrHeW6JrZ/R8uIr4oyQZa2+Vs8Abyd5MuPEaKzxeNtkYIGgaLW5xoOX7JqLkHRmHpUcM3LTAnQn5W57hbvSz6Tqp6xIHb1jHrRSw1KOs+58h2Jh71aoqJFysB/hDPX7rSZ9ofULE7InI0qcMkQdeR+qlTeQbiI4j58FpgEXsNd/rcnMGWwee7lCoZcCbWkaevUobzfy800abIMW7ON0q9r5gAQTvUWhoVymd3reliSJjcm3AhKVnkHf5cf2VbZMWfVdPl3yhPqEHX6Kb3cpSVe95j1vUeQ6NYqv1HX3HyC84xNHK8ncfoF3VZhcIC4zaVHLUcAZa4AtPDkhN2TjSYsCmcO8FItaSCCiYWgWukkRvTlFU9mhZJWqWi8w4VxhVRYbFNnLmE8FdYd4CwTi09mhTi1plzhtyucMVRYaoDojYjb1Cg5rajw0ndBJjiY0HNEINukiucopW2dRRKBtraRoUXPa3O4lrGt4ue4NF+F57lWbV2g9uHL6DS97gMkCfe0d2CZR8DictOjRrvDq723GpLmglxsLAcVrhBqNmaeS9ItKMQ8To90xHGfmuE6cbMfXa14yjIHEdaLEC5zdgXY4fFZKNV7rmXvItmN5gDsXAM6c031muxFBzqTTZjXjq394gtGd3aY7LzsT+hUY2nydhOgvQGtiHsq1JYxpDgAOs6DIMmwEr3WnSZQbJMu11lx5knXtNhyXLYvp9g6WHpvw/8Q1AcrYhzcoObODcEERHhZeW1vtOxjqucinln3S0kxP5pnNGh0G4BKmlsR7biMS+scjRfWBo0bi4nTtN+AGpZw+DZR6zofU4nRvZ+Xt1N0l0f25SrYWlWotLG1BMG7s0lrhJ94hwIzHWEyyg55l9hOn1PFSjG9sTdGVKjqhsbceHYESlh2ssL9uspqlTyiAhkXVia6RAC/VCeUZzRfgsLEwBd581il7M8FiAOXqO/DE2tyk6Wtol30hqJnX9uKI51xJgevAohYJ74v8Ar3qlloJlRzTESOrc2O6fnqp/egTYk8ONxuHj4IxAsOEW8IUGUBM5YtbzUWMHVd5Eg8u1J1Gd/wC36FMV6Jd1SSLknnJK2WCOHziD8CoSjZJSK2oy1x+yVrMEctyt6uDvmJOmk9Xtj5pDE0paQJEgibyDuPFVOLRJMpMSco4Lmdu02iXB1nnMB+UukkdkzHguqxdE5b6xftGu9c5UYx00qtmv91+9j9x/pO/uKESTa2jlaDyDB9FNtxLZynsT+P2SabocLjQ7jwIO8FVz8BJmY4qTlFveiyPNLWydHZ5zAg2meauq+G9o3K12UzYg+RSBYS0taYdFkHZGFrNqB2UgfiJ0j5lQ+76m9oHUfpS0zp9g4E0WuzPLibmdB4rbOjzK1d1Z1TO2R1RpYCxM6ckrtnA1arA2m7f1hMSI9WVh0T2U7DteajmguItNgBzO9Rj05Xtil3VaRZ4PpKx2KbhGMkCWlw0DmjQDgIN1Z4nAtZUfi25nVQzIxs9WSeqAOJcR4qq+6MoA1MLQ9pXrOAZEukuMkz+FuptA0XX7D2RVaM1ctL82dzWmQ11oZP8AKALcZ7BpxxtproolKls2zZWZga+ZAGYi0uIueUmVyWO+zJlR5e17mk6iGkT4L1BrZN0VtOTdaeMSnkzzvD/ZyxjaZZUe19N2YFwDmknXMy0gi1osuer/AGV4h9YkVKbGOMk9Yls7g2BPivacjZmO1RaOsfVt3rkhpdBbEdg7FZhqLKTZLWNygnXiSd0kye9WwA9aIYKIDaP0SZEkXgbrpV798apgNB5Ib6fGTKEMHMrMsdm8KDrcwpjxCYjJCxayH8nmsQBytOnLhA0j5Sm6tPjI4pr7vlFh6+SC4HX160UKLRWJiIJGn6et6KzefW9afS9eank4erlHEATmA9iTdScDINp0PC4+YTz6PiQDwgwPEaKDZ36dnKRPhCXELEmVy6A4EfC6M7Dh3ruTJo9U2kSOyNfgiUMMbzznv3/FLgOyjxOzwRp65rmtq7FJBtK9Dq4VpsRO/wDbmq/7rcg6buI7Y3KDxWS5HlratSkMj2l9MWANnMv+F0acjI7EzQo4arYPyE7nQx47nHK7+0yvQ6mxGu1APqVWV+iTHEjILqLw2CnRyeA6AVTVHs6rYBnr9TML6Gb9mq6Cv0Fx2WGNYHcXOGXxEnyRqPRLKGhj3suZyuc3Qcj2KyodHXggGo+IvLjeTzU/S5O2iKm0qTOfwmwsTROWs5j3k2ylpa0c4M+SJjOjjaz+u8vY0AZQXhk7yGNhxOnvFvcuppbC1mSbWJkDjbhqrfC7La3KANYnxVkcEU7ZF5nVCGycC1jAGDLHVkxnI4ANEMbybcxclX2EZAiLW8hwUGUok
+  cyPirAsAv6G75eas0tIr77BubABRGR8QhOdothwE8kgJuC0ael9f2UmXUj7vekxkGH4XUmnjoiOacoMDS6G3gUrsDbSpwsyidVs8kCA1GcVANG5FLh69eoQy6J5d6kgNwOSxQkcvXesQBXu07kpW9eS2sSLANTX+0IjtB3/APZyxYgDG+vBL1d/Z8lixABaOnrg1WLNFixAAa3y+iWqe94/BYsQgC4fQKW8+uCxYmhM1S97x/8AqiP1Pd8XLaxTREPT39rfg5H3ju+KxYhkTTNT/Um8Tp64rFig+xix3et4Uhr3lYsTAlQ17ii0fdPaVixRYBne6gP39h+SxYoobIneiDTxWLFIQF/1+aXq6eCxYmABYsWIA//Z" alt="Avatar" class="image1">
+  <div class="overlay1">BUBBLE TEA<BR>zhēnzhū nǎichá(珍珠奶茶)</div>
+</div>
+<div class="container2">
+  <img src="https://cdn.tasteatlas.com//images/ingredients/40bd19ce16724b13bfd9055de89f09fe.jpg?w=905&h=510" alt="Avatar" class="image2">
+  <div class="overlay2">OOLONG</div>
+  </div>
+  <div class="mad">
+<div class="container3">
+  <img src="https://www.tasteatlas.com/images/ingredients/06b032fd0ae74d42a999321584639b0e.jpg?mw=1300" alt="Avatar" class="image3">
+  <div class="overlay3">BLACK TEA</div>
+ </div>
+ <div class="container4">
+  <img src="https://cdn.tasteatlas.com//images/ingredients/8347989be5ab40858ca5e1bf457aa492.jpg?w=905&h=510" alt="Avatar" class="image4">
+  <div class="overlay4">Hong Kong(MILK TEA)</div>
+ </div>
+ <div class="container5">
+  <img src="https://cdn.tasteatlas.com//images/ingredients/3fe2b87c264d45619cd3e9516d452597.jpg?w=905&h=510" alt="Avatar" class="image5">
+  <div class="overlay5">Tieguanyin</div>
+ </div>
+   </div>
+</div>
+  
+  
+</body>
+</html>
+ 
